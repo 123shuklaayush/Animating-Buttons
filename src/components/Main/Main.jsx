@@ -6,6 +6,11 @@ const Main = () => {
     <>
       <h1 className={classes.text}>Explore the Buttons by our Contributors.</h1>
       <div className={classes.btns_container}>
+      <iframe
+          className={classes.container}
+          title="AashviKothari"
+          src="Buttons/AashviKothari/index.html"
+        ></iframe>
         <iframe
           className={classes.container}
           title="Princeton21_1"
@@ -53,6 +58,11 @@ const Main = () => {
         ></iframe>
         <iframe
           className={classes.container}
+          title="Ayushi8989"
+          src="Buttons/Ayushi8989/index.html"
+          ></iframe>
+        <iframe
+          className={classes.container}
           title="Sakshy18"
           src="Buttons/Sakshy18/index.html"
         ></iframe>
@@ -60,6 +70,11 @@ const Main = () => {
           className={classes.container}
           title="Aaditya1612"
           src="Buttons/Aaditya1612/index.html"
+        ></iframe>
+        <iframe
+          className={classes.container}
+          title="GauriBhand023"
+          src="Buttons/GauriBhand023/index.html"
         ></iframe>
       </div>
     </>
